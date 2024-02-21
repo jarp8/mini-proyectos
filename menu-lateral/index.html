@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Lateral</title>
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <div class="flex-container">
+        <aside class="side-menu">
+            <div class="side-menu-header">
+                <p class="side-menu-header-name">Blank 2</p>
+                <span class="menu"><i class="fa-solid fa-bars"></i></span>
+            </div>
+    
+            <nav class="side-menu-body">
+                <ul class="side-menu-options">
+                    <li class="side-menu-option">
+                        <a href="#" class="option">
+                            <span class="icon-name">
+                                <i class="fa-solid fa-house"></i>
+                                Home
+                            </span>
+                        </a>
+                    </li>
+                    <li class="side-menu-option has-submenu">
+                        <a href="#" class="option">
+                            <span class="icon-name">
+                                <i class="fa-solid fa-users"></i>
+                                Users
+                            </span>
+                            
+                            <span class="arrow-icon"><i class="fa-solid fa-caret-up"></i></span>
+                        </a>
+    
+                        <!-- Submenu -->
+                        <ul class="side-menu-options submenu">
+                            <li class="side-menu-option">
+                                <a href="#" class="option">Roles</a>
+                            </li>
+                            <li class="side-menu-option has-submenu">
+                                <a href="#" class="option">
+                                    <span class="icon-name">
+                                        Users 2
+                                    </span>
+                                    
+                                    <span class="arrow-icon"><i class="fa-solid fa-caret-up"></i></span>
+                                </a>
+            
+                                <!-- Submenu -->
+                                <ul class="side-menu-options submenu">
+                                    <li class="side-menu-option">
+                                        <a href="#" class="option">Roles 2</a>
+                                    </li>
+                                    <li class="side-menu-option has-submenu">
+                                        <a href="#" class="option">
+                                            <span class="icon-name">
+                                                Users 3
+                                            </span>
+                                            
+                                            <span class="arrow-icon"><i class="fa-solid fa-caret-up"></i></span>
+                                        </a>
+                    
+                                        <!-- Submenu -->
+                                        <ul class="side-menu-options submenu">
+                                            <li class="side-menu-option">
+                                                <a href="#" class="option">Roles 3</a>
+                                            </li>
+                                            <li class="side-menu-option">
+                                                <a href="#" class="option">Users 3</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+    
+        <main class="flex-1">
+            <section>
+                <h1>Main Content</h1>
+            </section>
+        </main>
+    </div>
+
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/524854fa86.js" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
